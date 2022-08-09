@@ -17,6 +17,7 @@ function encriptar(){
 }
 
 function desencriptar(){
+    document.getElementById("divshowmuneco").style.display = "none";
     encriptado = inputtext.value;
     mensaje = encriptado.replaceAll("enter","e").replaceAll("imes","i").replaceAll("ai","a").replaceAll("ober","o").replaceAll("ufat","u");
     showtext.value = mensaje;
