@@ -1,0 +1,273 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+body{
+    background-color: #F3F5FC;
+}
+
+/* Logo */
+#Logo{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+}
+
+/* Rectangle 1 */
+#rectanguloshow{
+
+position: relative;
+width: 400px;
+height: 844px;
+left: 1400px;
+top: 40px;
+
+/* White */
+background: #FFFFFF;
+
+/* shadow */
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+border-radius: 32px;
+}
+
+#txtshow{
+    width: 350px;
+    height: 690px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    text-transform: lowercase;
+    font-family: Inter;
+    font-size: 24px;
+    color: #495057;
+    border: none;
+    outline: none;
+    resize: none;
+}
+#divshowmuneco{
+    position: absolute;
+    top: 100px;
+}
+#imgmuneco{
+    margin-left: 32px;
+    margin-top: 20px;
+}
+#divtextolft{
+    margin-top: 100px;
+    background: transparent;
+}
+#msg1{
+    color: #343A40;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 120%;
+text-align: center;
+}
+#msg2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+/* or 24px */
+text-align: center;
+
+/* Gray/gray-400 */
+color: #495057;
+
+
+}
+/* Button */
+#btncopiar{
+position: absolute;
+width: 336px;
+height: 67px;
+left: 30px;
+top: 760px;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+background-color: #F3F5FC;
+
+color:#0A3871;
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+transition-duration: 0.4s;
+}
+
+#btncopiar:hover{
+    color: white;
+    background-color: #0A3871;
+    transition-duration: 0.4s;
+    box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+}
+
+#txtinput{
+position: absolute;
+width: 1100px;
+height: 400px;
+left: 240px;
+top: 168px;
+resize: none;
+border: none;
+outline: none;
+transition-duration: 0.4s;
+text-transform: lowercase;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+/* or 48px */
+
+color: #0A3871;
+background: transparent;
+}
+
+#txtinput::placeholder{
+    color: #0A3871;
+}
+
+/*Botones encriptar, desencriptar y limpiar*/
+#btnencript{
+    position: absolute;
+    width: 328px;
+    height: 70px;
+    left: 240px;
+    top: 790px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+text-align: center;
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+transition-duration: 0.4s;
+}
+
+#btnencript:hover{
+    color: #0A3871;
+    background-color: #F3F5FC;
+    transition-duration: 0.4s;
+    box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+}
+
+#btnuncript{
+    position: absolute;
+    width: 328px;
+    height: 70px;
+    left: 600px;
+    top: 790px;
+
+    background-color: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    text-align: center;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    transition-duration: 0.4s;
+}
+
+#btnuncript:hover{
+    color: white;
+    background-color: #0A3871;
+    transition-duration: 0.4s;
+    box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+}
+
+#btnlimpiar{
+    position: absolute;
+    width: 328px;
+    height: 70px;
+    left: 960px;
+    top: 790px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+text-align: center;
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+transition-duration: 0.4s;
+}
+
+#btnlimpiar:hover{
+    color: #0A3871;
+    background-color: #F3F5FC;
+    transition-duration: 0.4s;
+    box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px -8px 5px 0px rgba(0,0,0,0.2);
+}
+
+span{
+    position: absolute;
+    top: 730px;
+    left: 240px;
+}
+#icon{
+    display: inline-block;
+    
+}
+#pad{
+    display: inline-block;
+    margin-left: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+

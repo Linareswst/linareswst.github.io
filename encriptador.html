@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <img src="img/Logo.png" alt="Logo alura" id="Logo">
+    <div id="rectanguloinput">
+        <textarea name="inputtext" id="txtinput" cols="30" rows="10" placeholder="Ingrese su texto aqui"></textarea>
+        <span id="advertencia">
+            <img src="img/danger-sign.png" alt="img danger" width="20px" height="20px" id="icon">
+            <p id="pad">Solo letras minusculas y sin acentos</p>
+        </span>
+        <button id="btnencript">Encriptar</button>
+        <button id="btnuncript">Desencriptar</button>
+        <button id="btnlimpiar">Limpiar</button>
+    </div>
+    <div id="rectanguloshow">
+        <div id="divshowmuneco">
+            <img src="img/Muñeco.png" alt="img muñeco" id="imgmuneco">
+            <div id="divtextolft">
+                <p id="msg1">Ningun mensaje fue encontrado</p>
+                <p id="msg2">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </div>
+        <textarea name="showtext" id="txtshow" cols="30" rows="10"></textarea>
+        <button id="btncopiar">Copiar</button>
+    </div>
+    <script src="js/encriptar.js"></script>
+</body>
+</html>
