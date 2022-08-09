@@ -270,4 +270,22 @@ span{
     opacity: 0.8;
 }
 
+#footer{
+    position: relative;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    top: 40.5px;
+    
+
+}
+
+#link{
+    color: #0A3871;
+}
+
 
